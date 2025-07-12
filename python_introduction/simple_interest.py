@@ -7,7 +7,7 @@ def main():
     monthly_expenses = float(input("Enter your total monthly expenses: "))
     
     # Calculate monthly savings
-    monthly_savings = monthly_income - monthly_expenses
+    monthly_savings = float(monthly_income) - float(monthly_expenses)
     
     # Check if savings are positive, then project annual savings
     if monthly_savings >= 0:
