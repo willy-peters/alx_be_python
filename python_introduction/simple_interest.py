@@ -3,8 +3,8 @@ def main():
     """Main function to run the finance calculator."""
     
     # Get user input for financial details
-    monthly_income = float(input("Enter your monthly income: "))
-    monthly_expenses = float(input("Enter your total monthly expenses: "))
+    monthly_income = input("Enter your monthly income: ")
+    monthly_expenses = input("Enter your total monthly expenses: ")
     
     # Calculate monthly savings
     monthly_savings = float(monthly_income) - float(monthly_expenses)
